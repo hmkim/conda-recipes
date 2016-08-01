@@ -8,14 +8,11 @@
    md5: c9ebf7dc9d62fa4554a738a15fe1ded8
 
  requirements:
-  build:
-    - squid
-
-  run:
-    - squid
+   build:
+     - squid
 
  build:
-   number: 0
+   number: 2
 
  about:
    home: http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/
