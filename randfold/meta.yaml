@@ -1,0 +1,22 @@
+ package:
+   name: randfold
+   version: "2.0.1"
+
+ source:
+   fn: randfold-2.0.1.tar.gz
+   url: http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/downloads/randfold-2.0.1.tar.gz
+   md5: c9ebf7dc9d62fa4554a738a15fe1ded8
+
+ requirements:
+  build:
+    - squid
+
+  run:
+    - squid
+
+ build:
+   number: 0
+
+ about:
+   home: http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/
+   license: GNU v2

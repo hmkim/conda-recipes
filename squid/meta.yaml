@@ -1,0 +1,15 @@
+ package:
+   name: squid
+   version: "1.9g"
+
+ source:
+   fn: squid.tar.gz
+   url: http://eddylab.org/software/squid/squid.tar.gz
+   md5: b9bf480c65d01417b7894c82d094ce07
+
+ build:
+   number: 0
+
+ about:
+   home: http://eddylab.org/software.html 
+   license: GNU v2
