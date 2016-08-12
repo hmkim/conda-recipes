@@ -1,0 +1,25 @@
+package:
+  name: mirdeep2
+  version: '2.0.0.8'
+
+source:
+  fn: mirdeep2_0_0_8.zip
+  url: http://hellops.net/mirdeep2_0_0_8.zip
+  md5: a707f7d7ad4a2975fb8b2e78c5bcf483
+
+build:
+  number: 1
+
+requirements:
+  run:
+    - perl-threaded
+    - perl-pdf-api2
+    - bowtie
+    - viennarna
+    - squid
+    - randfold
+
+about:
+  home: https://www.mdc-berlin.de/8551903/en/
+  license: academic
+  summary: Discovering known and novel miRNAs from deep sequencing data
