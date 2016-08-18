@@ -8,7 +8,7 @@ source:
   md5: a707f7d7ad4a2975fb8b2e78c5bcf483
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   run:
