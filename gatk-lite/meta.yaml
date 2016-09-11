@@ -1,0 +1,26 @@
+package:
+  name: gatk-lite       # lower case name of package, may contain '-' but no spaces
+  version: '2.3.9'        # version of package. Should use the PEP-386 verlib conventions.
+
+source:
+# The source section specifies where the source code of the package is coming
+# from, it may be coming from a source tarball like:
+  fn: GenomeAnalysisTK-2.3-9-ge5ebf34.tar.bz2
+  url: 
+  md5: 647430f4bfff6757c3686fa18fb5ebb5
+
+# The build number should be incremented for new builds of the same version
+build:            # (optional)
+  number: 0       # (optional, defaults to 0)
+  skip: False
+
+about:
+  home: http://www.broadinstitute.org/gatk/
+  license: MIT
+
+requirements:
+  run:
+    - java-jdk >=8,<9
+    - bzip2 # needed by gatk-register to extract GATK archive
+
+
