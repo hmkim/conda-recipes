@@ -6,7 +6,7 @@ source:
 # The source section specifies where the source code of the package is coming
 # from, it may be coming from a source tarball like:
   fn: GenomeAnalysisTK-2.3-9-ge5ebf34.tar.bz2
-  url: 
+  url: https://github.com/hmkim/conda-recipes/blob/master/gatk-lite/GenomeAnalysisTK-2.3-9-ge5ebf34.tar.bz2?raw=true 
   md5: 647430f4bfff6757c3686fa18fb5ebb5
 
 # The build number should be incremented for new builds of the same version
