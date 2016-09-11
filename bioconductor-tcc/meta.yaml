@@ -1,0 +1,37 @@
+package:
+  name: bioconductor-tcc
+  version: 1.12.1
+source:
+  fn: DESeq_1.22.1.tar.gz
+  url: http://bioconductor.org/packages/release/bioc/src/contrib/TCC_1.12.1.tar.gz
+  md5: 2cc805101a162380adb332ae25e45a4f
+build:
+  number: 0
+  skip: True # [osx]
+  rpaths:
+    - lib/R/lib/
+    - lib/
+requirements:
+  build:
+    - bioconductor-edger
+    - bioconductor-deseq
+    - bioconductor-deseq2
+    - r-bayseq
+    - r-roc
+    - r
+    - r-samr
+  run:
+    - bioconductor-edger
+    - bioconductor-deseq
+    - bioconductor-deseq
+    - r-bayseq
+    - r-roc
+    - r
+    - r-samr
+test:
+  commands:
+    - '$R -e "library(''TCC'')"'
+about:
+  home: http://bioconductor.org/packages/release/bioc/html/TCC.html
+  license: 'GPL-2'
+  summary: 'Differential expression analysis for tag count data with robust normalization strategies'
